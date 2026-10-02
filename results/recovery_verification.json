@@ -1,0 +1,51 @@
+{
+  "recovery_date": "2026-10-02",
+  "method": "Recovered original source rerun with empty results directory using pinned package versions. Outputs independently checked and compared with original archive.",
+  "dataset_matches_fresh_kaggle_download": true,
+  "checks": [
+    {
+      "file": "reproduction_metrics.csv",
+      "byte_identical_to_original": true,
+      "max_absolute_numeric_difference": 0.0,
+      "numerically_equivalent_at_1e_12": true
+    },
+    {
+      "file": "reproduction_predictions.csv",
+      "byte_identical_to_original": true,
+      "max_absolute_numeric_difference": 0.0,
+      "numerically_equivalent_at_1e_12": true
+    },
+    {
+      "file": "fold_metrics.csv",
+      "byte_identical_to_original": false,
+      "max_absolute_numeric_difference": 3.885780586188048e-16,
+      "numerically_equivalent_at_1e_12": true
+    },
+    {
+      "file": "outer_predictions.csv",
+      "byte_identical_to_original": false,
+      "max_absolute_numeric_difference": 4.440892098500626e-16,
+      "numerically_equivalent_at_1e_12": true
+    },
+    {
+      "file": "outer_splits.json",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "pool_weights.csv",
+      "byte_identical_to_original": false,
+      "max_absolute_numeric_difference": 4.440892098500626e-16,
+      "numerically_equivalent_at_1e_12": true
+    },
+    {
+      "file": "uncertainty.json",
+      "byte_identical_to_original": false,
+      "numerically_equivalent_at_1e_12": true
+    }
+  ],
+  "result": "Report-level results reproduced; numeric differences below 1e-12. This fresh run is not byte-for-byte identical for every file.",
+  "limitations": [
+    "Video and submission links not checked",
+    "Original-paper implementation remains assumption-based"
+  ]
+}

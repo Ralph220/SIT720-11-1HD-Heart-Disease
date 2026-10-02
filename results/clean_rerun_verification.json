@@ -1,0 +1,40 @@
+{
+  "method": "Second full run from a clean directory using same pinned runtime; not a fresh dependency installation",
+  "checks": [
+    {
+      "file": "reproduction_metrics.csv",
+      "byte_identical": true,
+      "sha256": "99ea1284b33f6da8b8f691bb8fd05855e979983f238ba610ecd865406340d35c"
+    },
+    {
+      "file": "reproduction_predictions.csv",
+      "byte_identical": true,
+      "sha256": "e21cc8a61627fd9c1c9a6e6d3fb4ae21fb96a6ae769d4c46e7eb48d173df1000"
+    },
+    {
+      "file": "fold_metrics.csv",
+      "byte_identical": true,
+      "sha256": "472bd44094e1b9b0af67c65722507939c70192fd8b111a75951958512ba28715"
+    },
+    {
+      "file": "outer_predictions.csv",
+      "byte_identical": true,
+      "sha256": "86ba526e0017ec321a9f934f79ef68566f9f4113aa6a7551c3962d4b49671787"
+    },
+    {
+      "file": "outer_splits.json",
+      "byte_identical": true,
+      "sha256": "de44d948685c15e24502e50cdafbd47fd22ff9f2842346aee640ea53d71a5851"
+    },
+    {
+      "file": "pool_weights.csv",
+      "byte_identical": true,
+      "sha256": "8e678c02dc5182b7e168036fefe106df0a335192073704f016b73a442e3867ac"
+    },
+    {
+      "file": "uncertainty.json",
+      "byte_identical": true,
+      "sha256": "50f3b16227056eeb06b15647526868515533c02ec5434c0169926a4fb2190c47"
+    }
+  ]
+}

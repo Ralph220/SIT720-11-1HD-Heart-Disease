@@ -1,0 +1,11 @@
+{
+  "comparison": "proposed minus baseline Brier loss; negative favors proposed",
+  "mean_profile_loss_difference": -0.01726225436856538,
+  "conditional_bootstrap_95_interval": [
+    -0.02743241267952476,
+    -0.007551058274452643
+  ],
+  "resamples": 5000,
+  "unit": "distinct profile, repeats kept together",
+  "limitation": "Conditional on fitted cross-validated predictions; overlapping training sets and retraining uncertainty are not captured. Exploratory, not an independent-test significance claim."
+}

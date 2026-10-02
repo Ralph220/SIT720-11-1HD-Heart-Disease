@@ -1,0 +1,19 @@
+{
+  "status": "Fixed before full experiments; informed by the earlier two-model exploratory pilot",
+  "data_sha256": "ddb2996b2f4db2e00aad13f4518200179ff69f79093838e3c21ffa672ebec0f1",
+  "reproduction_test_fraction": 0.2,
+  "reproduction_seed": 42,
+  "outer_seeds": [42, 1042, 2042],
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "threshold": 0.5,
+  "primary_metric": "Brier score averaged across outer folds, giving one vote per distinct predictor profile",
+  "secondary_metrics": ["accuracy", "precision", "recall", "f1", "auc", "log_loss"],
+  "pool_regularization": 0.01,
+  "primary_comparison": "Proposed pool versus baseline stacking on identical group-held-out outer test profiles",
+  "models": ["LR", "DT", "RF", "XGB", "NB", "KNN"],
+  "variants": ["Baseline stacking", "Unique stacking", "Typed stacking", "Proposed pool"],
+  "numerical_features": ["age", "trestbps", "chol", "thalach", "oldpeak"],
+  "categorical_features": ["sex", "cp", "fbs", "restecg", "exang", "slope", "ca", "thal"],
+  "no_claim": "No untouched external test set, no verified patient identifiers, no universal novelty or clinical readiness claim"
+}

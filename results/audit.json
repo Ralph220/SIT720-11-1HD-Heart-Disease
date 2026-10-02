@@ -1,0 +1,108 @@
+{
+  "source": "https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset",
+  "sha256": "ddb2996b2f4db2e00aad13f4518200179ff69f79093838e3c21ffa672ebec0f1",
+  "rows": 1025,
+  "columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "target"
+  ],
+  "class_counts": {
+    "1": 526,
+    "0": 499
+  },
+  "unique_records": 302,
+  "extra_duplicate_rows": 723,
+  "missing_cells": 0,
+  "unique_record_class_counts": {
+    "1": 164,
+    "0": 138
+  },
+  "conflicting_predictor_profiles": 0,
+  "category_codes": {
+    "cp": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "restecg": [
+      0,
+      1,
+      2
+    ],
+    "slope": [
+      0,
+      1,
+      2
+    ],
+    "ca": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "thal": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "duplicate_fraction": 0.7053658536585365,
+  "code_counts": {
+    "sex": {
+      "1": 713,
+      "0": 312
+    },
+    "cp": {
+      "0": 497,
+      "2": 284,
+      "1": 167,
+      "3": 77
+    },
+    "fbs": {
+      "0": 872,
+      "1": 153
+    },
+    "restecg": {
+      "1": 513,
+      "0": 497,
+      "2": 15
+    },
+    "exang": {
+      "0": 680,
+      "1": 345
+    },
+    "slope": {
+      "1": 482,
+      "2": 469,
+      "0": 74
+    },
+    "ca": {
+      "0": 578,
+      "1": 226,
+      "2": 134,
+      "3": 69,
+      "4": 18
+    },
+    "thal": {
+      "2": 544,
+      "3": 410,
+      "1": 64,
+      "0": 7
+    }
+  }
+}

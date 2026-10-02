@@ -1,0 +1,1 @@
+PASS: data split profile disjointness; one outer prediction per profile per model per repeat; all 300 fold rows independently verified for accuracy, precision, recall, F1 and Brier; bounded probabilities. AUC uses scikit-learn. Full model fitting completed without errors.
